@@ -19,3 +19,15 @@ Watches the files for changes
 ```bash
 tsc -w
 ```
+
+## Including and excluding files
+
+Inside `tsconfig.json` you can exclude files by adding the "exclude" prop.
+
+```js
+{ ... },
+"exclude": [
+    "node_modules"
+]
+
+```
